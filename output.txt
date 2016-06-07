@@ -1,0 +1,5 @@
+BarBookPro:Debug pledeboer$ ./SG-problem1
+./SG-problem1: usage: ./SG-problem1 input-data-file.csv
+BarBookPro:Debug pledeboer$
+BarBookPro:Debug pledeboer$ ./SG-problem1 ~/Documents/birth-death-data.csv
+Year with most number of alive people was: 1934
