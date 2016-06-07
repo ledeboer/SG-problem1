@@ -25,6 +25,12 @@
 /* Begin PBXFileReference section */
 		0FBBE0891D078E7A000460A6 /* SG-problem1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SG-problem1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBBE08C1D078E7A000460A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0FBBE0931D078E93000460A6 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.TXT; sourceTree = "<group>"; };
+		0FBBE0951D079273000460A6 /* birth-death-clean-data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "birth-death-clean-data.csv"; sourceTree = "<group>"; };
+		0FBBE0961D079273000460A6 /* bad-data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "bad-data.csv"; sourceTree = "<group>"; };
+		0FBBE0971D079273000460A6 /* test-data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-data.csv"; sourceTree = "<group>"; };
+		0FBBE0981D079273000460A6 /* birth-death-data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "birth-death-data.csv"; sourceTree = "<group>"; };
+		0FBBE0991D0792C0000460A6 /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = output.txt; path = ../output.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,23 @@
 		0FBBE08B1D078E7A000460A6 /* SG-problem1 */ = {
 			isa = PBXGroup;
 			children = (
+				0FBBE0941D079258000460A6 /* data */,
 				0FBBE08C1D078E7A000460A6 /* main.cpp */,
+				0FBBE0931D078E93000460A6 /* README.TXT */,
+				0FBBE0991D0792C0000460A6 /* output.txt */,
 			);
 			path = "SG-problem1";
+			sourceTree = "<group>";
+		};
+		0FBBE0941D079258000460A6 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				0FBBE0951D079273000460A6 /* birth-death-clean-data.csv */,
+				0FBBE0961D079273000460A6 /* bad-data.csv */,
+				0FBBE0971D079273000460A6 /* test-data.csv */,
+				0FBBE0981D079273000460A6 /* birth-death-data.csv */,
+			);
+			name = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
